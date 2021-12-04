@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>corona virus</title>
+    <style>
+      body {
+        font-family: Arial;
+        background-color: lightblue;
+      }
+      div {
+        background-color: rgb(217, 209, 224);
+        padding: 20px;
+        border-radius: 20px;
+      }
+      /* Full-width input fields */
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 20px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+      }
+
+      .submit {
+        background-color: #4caf50;
+        color: white;
+        padding: 15px 10px;
+        margin: 8px 10px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+      }
+
+      /* Add a blue text color to links */
+      a {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><center>Corona Virus</center></h1>
+    <hr />
+    <div>
+      Coronavirus disease (COVID-19) is an infectious disease caused by the
+      SARS-CoV-2 virus. Most people infected with the virus will experience mild
+      to moderate respiratory illness and recover without requiring special
+      treatment. However, some will become seriously ill and require medical
+      attention. Older people and those with underlying medical conditions like
+      cardiovascular disease, diabetes, chronic respiratory disease, or cancer
+      are more likely to develop serious illness. Anyone can get sick with
+      COVID-19 and become seriously ill or die at any age. The best way to
+      prevent and slow down transmission is to be well informed about the
+      disease and how the virus spreads. Protect yourself and others from
+      infection by staying at least 1 metre apart from others, wearing a
+      properly fitted mask, and washing your hands or using an alcohol-based rub
+      frequently. Get vaccinated when it’s your turn and follow local guidance.
+      The virus can spread from an infected person’s mouth or nose in small
+      liquid particles when they cough, sneeze, speak, sing or breathe. These
+      particles range from larger respiratory droplets to smaller aerosols. It
+      is important to practice respiratory etiquette, for example by coughing
+      into a flexed elbow, and to stay home and self-isolate until you recover
+      if you feel unwell. Stay informed: <br />
+      <h2>Stay informed:</h2>
+
+<ul>
+  <li> Advice for the public</li>
+  <li> Myth busters</li>
+  <li>Questions and answers</li>
+  <li> Situation reports</li>
+</ul> <br>
+    </div>
+    <form
+      name="myForm"
+      action="welcome.php"
+      onsubmit="return validateForm()"
+      method="get"
+      required
+    >
+      <p>Please fill the data for any information and any suggestions about COVID-19 </p>
+      <lable for="fname"><b>first name:</b></lable>
+      <input
+        type="text"
+        id="fname"
+        placeholder="Enter your first name"
+      />&nbsp&nbsp&nbsp
+      <lable for="lname"><b>last name:</b></lable>
+      <input type="text" placeholder="Enter your last name" /><br /><br />
+      <b>Email Id:</b
+      ><input
+        type="text"
+        placeholder="Enter your mail id"
+      />&nbsp&nbsp&nbsp&nbsp <b>select your gender</b
+      ><input type="radio" name="gender" id="male" value="male" /><lable
+        for="male"
+        >male</lable
+      >&nbsp<input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      /><lable for="female">female</lable>&nbsp<input
+        type="radio"
+        name="gender"
+        id="other"
+        value="other"
+      /><lable for="other">other</lable><br /><br />
+       
+      </p>
+      <textarea name="message" style="width:400px; height:300px;">The maximum cases of corona virus is found......</textarea>
+      <br />
+      <button type="submit" class="submit">submit</button>
+    </form>
+  </body>
+</html>
